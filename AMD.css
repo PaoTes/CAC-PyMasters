@@ -1,0 +1,122 @@
+
+.header{
+    width: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+    color:rgb(250, 160, 4);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#banner{
+    background-image: url('./img/amd_banner.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+}
+h1{
+    color: black;  
+    font-size: 4em;
+  }
+  
+  h2 {
+      color: black;
+      font-size: 2vw;
+  }
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.contenedor{
+width: 100%;
+height: 70%;
+color:black;
+position: relative;
+top: 40px;
+
+}
+
+
+
+.producto-img{
+    width: 150px;
+
+}
+
+.producto-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#producto1{
+    order: 1;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+#producto2{
+    order: 2;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+#producto3{
+    order: 3;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+#producto4{
+    order: 4;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+#producto5{
+    order: 5;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+#producto6{
+    order: 6;
+    flex-grow: 2;
+    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+.btn_comprar{
+    background-color: black;
+    color: rgb(250, 160, 4);
+    padding: 10px;
+    border-radius:10px;
+}
+
+.btn_comprar:hover{
+    background-color: rgb(250, 160, 4);
+    color: black;
+    border: 2px solid var(--secondary-color);
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color:white
+}
+
+#footer {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    gap: 20px;
+    padding: 50px;
+}
