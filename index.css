@@ -1,0 +1,49 @@
+.logo-text{
+    font-size: 160%;
+    width: 100%;
+    position: static;
+    color:rgb(250, 160, 4);
+    padding-top: 50px;
+    padding-left: 550px;
+}
+
+.header{
+    font-size: 110%;
+    width: 100%;
+    top:0;
+    left:0;
+    position: static;
+    color:rgb(250, 160, 4);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#banner{
+    background-image: url('./img_INDEX/dual-screen-desktop-computer-ddx9d88znl02z0yd.jpg') ;
+    background-size: contain;
+    background-position: bottom;
+    height: 40vw;
+}
+
+h1{
+    color: black;  
+    font-size: 3em;
+  }
+
+.container{
+    padding-top: 20px;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.product-img{
+    width: 150px;
+
+}
+
+footer{
+    font-size: 120%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
