@@ -1,13 +1,17 @@
 .logo-text{
-    font-size: 160%;
+   
     width: 100%;
     position: static;
-    color:rgb(250, 160, 4);
+    
     padding-top: 50px;
-    padding-left: 550px;
+    
 }
-
-.header{
+.texto-logo{ 
+    font-size: 3rem;
+    color:rgb(250, 160, 4);
+    padding-left: 30px;
+}
+/* .header{
     font-size: 110%;
     width: 100%;
     top:0;
@@ -16,15 +20,47 @@
     color:rgb(250, 160, 4);
     padding-top: 20px;
     padding-left: 20px;
+} */
+.navbar-collapse {
+     flex-grow: 0;
 }
 
 #banner{
-    background-image: url('./img_INDEX/dual-screen-desktop-computer-ddx9d88znl02z0yd.jpg') ;
+    background-image: url(../media/img_AMD/img_INDEX/dual-screen-desktop-computer.jpg);
     background-size: contain;
     background-position: bottom;
     height: 40vw;
 }
+#search{
+    height: 5vw;
+}
+.buscar-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.txtbuscar{
+    padding:10px;
+    width:50%;
+    border: 1px solid silver;
+    border-radius:12px;
+    margin: 10px;
 
+}
+.tit-buscar{
+    font-size:1.3em;
+    color: grey;
+}
+
+.btn-buscar-nav
+{width:50px;
+height:50px;
+background-color: rgb(24, 90, 116);
+padding:10px;
+margin:10px;
+border-radius:12px;
+}
 h1{
     color: black;  
     font-size: 3em;
