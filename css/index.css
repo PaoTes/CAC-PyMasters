@@ -80,40 +80,49 @@ h1{
     
 }
 .contenedor-productos{
+    display:flex;
     padding:20px;
+    flex-wrap: nowrap;
 }
 
 .product-item{
     display:flex;
     flex-direction:column;
-    justify-content: baseline;
-    width:300px;
+    justify-content: center;
+    width:250px;
     max-height: 450px;
-    border:1px solid silver;
     border-radius: 12px;
-    padding:10px;
     background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    overflow:hidden; 
 
 }
+.product-item:hover{
+webkit-transform:scale(1);transform:scale(1.06);}
+   
 img.product-img {
     width: auto;
     height:300px;
+    padding:15px;
 
 }
 .product-img {
-    max-width: 250px;
+    max-width: 230px;
     height:350px;
 
 }
 .product-item-detail{
     display:flex;
     justify-content: center;
+    background-color: #212529;
+    flex-wrap: nowrap;
 }
 .product-item-detail-title{
     line-height: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
-    color:rgb(40, 121, 168);
+    color:rgb(250, 160, 4);
 }
 
 #search {
@@ -138,7 +147,7 @@ img.product-img {
 }
 
 footer{
-    padding:50px 20px 10px 20px;
+    padding:50px 20px 30px 20px;
     background-color:#212529;
     color:#fff;
 }
@@ -174,4 +183,5 @@ footer h2{
 .grupo-2{
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
