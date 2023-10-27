@@ -66,13 +66,18 @@ h1{
     color: black;  
     font-size: 3em;
   }
-
+.wrapper{
+    padding:50px 30px;
+    background-image: url(../media/fondo.jpg);
+    background-size: cover;
+}
 .container{
     display:flex;
     width: 90%;
     flex-direction:row;
     justify-content: space-around;
     flex-wrap: nowrap;
+    
 }
 .contenedor-productos{
     padding:20px;
@@ -87,6 +92,7 @@ h1{
     border:1px solid silver;
     border-radius: 12px;
     padding:10px;
+    background-color: #fff;
 
 }
 img.product-img {
@@ -132,25 +138,28 @@ img.product-img {
 }
 
 footer{
-    padding:50px;
+    padding:50px 20px 10px 20px;
     background-color:#212529;
     color:#fff;
 }
 footer img{
     width:150px;
 }
+footer p{
+    line-height:10px;
+}
 footer i{
     color:#fff;
 }
 footer h2{
     color:rgb(250, 160, 4);
-    font-size:1.5rem;
-    text-transform:lowercase, capitalize;
+    font-size:1.1rem;
 }
  .grupo-1{display:flex;
         flex-direction:row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
+        gap: 20px;
         }
 .box{
     display:flex;
@@ -159,4 +168,10 @@ footer h2{
 .links{
     display:flex;
     flex-direction:column;
+    color:#fff;
+    text-decoration: none;
+}
+.grupo-2{
+    display: flex;
+    justify-content: center;
 }
