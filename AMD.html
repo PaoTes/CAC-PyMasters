@@ -1,50 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./amd.css">
-    <title>AMD</title>
-</head>
+     <head><meta charset="utf-8"></head><!-- google font --><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;family=Roboto:ital@1&amp;display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Montserrat:ital,wght@0,100;0,400;1,100&amp;display=swap" rel="stylesheet">
+     <link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=https%3A%2F%2Fcodepen.io%2FP1N2O%2Fpen%2FpyBNzX&format=json" title="Pure CSS Gradient Background Animation" />
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/4661576001.js" crossorigin="anonymous"></script>
+     <title>Inicio</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     
+     <link rel="stylesheet" href="css/index.css">
+     <!-- logo de la empresa en la pestaña -->
+     <link rel="shortcut icon" href="media/logo.png">
+ </head>
 <body>
-<header class="header">
-    <div id="logo">
-        <span class="logo-text">
-            💻PC Masters💻
-        </span>
-    </a>
-    </div>
-    <nav>
-        <p>
-                 Menú
-        </p>
-        <ul>
-            <li>
-                <a href="./index.html">
-                    Pagina Principal
-                </a>
-            </li>
-            <li>
-                <a href="./INTEL.html"
-                    title="Ir a productos INTEL">
-                    Intel
-                </a>
-            </li>
-            <li>
-                <a href="./CONTACTO.html"
-                    title="Formas de contactarse con el soporte">
-                    Contacto
-                </a>
-            </li>
-        </ul>
-    </nav>
+   
+<header>
+        <!-- Comienzo de header -->
+<section id="navegacion">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark menu">
+            <div class="container-fluid justify-content-around">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="./media/logo.png" alt="Logo Pc Masters" style="width:100px"><span class="texto-logo">Pc Masters</span>
+                </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav alinear">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="amd.html">Productos AMD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="intel.html">Productos INTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clientes.html">Nuestros Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Contacto</a>
+                        </li>
+                       
 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</section>
+        <section id="search" class="buscar-nav">
+           
+                <h6 class="tit-buscar">¿Que producto buscas?</h6>
+                <input class="txtbuscar" type="text" placeholder="Buscar">
+                <img class="btn-buscar-nav" src="./media/search.png" alt="Buscar...">
+          
+        </section><!-- Fin de header -->
 </header>
 <main>
-    <section id="banner" class="banner-css">
+    <section id="banner-amd" class="banner-css">
         
     </section>
-        <div class="container">
+        <div class="title">
             <h1>Productos AMD</h1>
         </div>
     </section>
@@ -142,11 +162,72 @@
     </div>
     </section>  
 </main>
-<footer class="footer" id="footer"> 
-    <a href="">Términos y condiciones</a>
-    <a href="">Preguntas Frecuentes</a>
-    <a href="">Ayuda</a>
+<footer  id="footer">
+
+    <div class="grupo-1">
+        <div class="box">
+            <div class="logo">
+                <img src="media/logo.png" alt="PC Masters">
+            </div>
+        </div>
+        <div class="box">
+          
+              <h2>Atención al Cliente</h2>
+              <p>0810-555-8894</p>
+              <p>consultas@pcmasters.com.ar</p>
+              <p> Lunes a viernes de 8 a 20hs.</p>
+              <p> Sabado de 8 a 14hs</p> 
+              
+         </div>
+         
+        <div class="box">
+        <h2>Contáctate</h2>
+        <div class="tarjetas">
+        <a href="https://api.whatsapp.com/send?phone=[número de teléfono]" target="_blank"><span class="wsp"><i class="fa-brands fa-whatsapp"></i></span></a>
+        <a href="mailto:info@pcmasters.com.ar"><span class="mail"><i class="fa-regular fa-envelope-open"></i></span></a>
+        </div>
+                        
+   
+        <h2>Nuestras Redes</h2>
+        <div class="redes">      
+          <a href="https://www.facebook.com/" target="_blank"><span class="fb"><i class="fa-brands fa-facebook-f"></i></span></a>
+          <a href="https://twitter.com/" target="_blank"><span class="tw"><i class="fa-brands fa-x-twitter"></i></span></a>
+          <a href="https://www.instagram.com/" target="_blank"><span class="insta"><i class="fa-brands fa-instagram"></i></span></a>
+          <a href="https://www.tiktok.com/" target="_blank"><span class="tk"><i class="fa-brands fa-tiktok"></i></span></a>  
+        </div>
+
+     
+
+    </div>
+    <div class="box">
+        <h2>Medios de Pago</h2>
+        <div class="tarjetas">
+        <a href="https://www.visa.com/" target="_blank"><span class="vi"><i class="fa-brands fa-cc-visa"></i></span></a>
+        <a href="https://www.mastercard.com/" target="_blank"><span class="ms"><i class="fa-brands fa-cc-mastercard"></i></span></a>
+        <a href="https://www.americanexpress.com/" target="_blank"><span class="amx"><i class="fa-brands fa-cc-amex"></i></span></a>
+        <a href="https://www.paypal.com/" target="_blank"><span class="pay"><i class="fa-brands fa-cc-paypal"></i></span></a>  
+        <a href="https://academy.binance.com/" target="_blank"><span class="btc"><i class="fa-brands fa-btc"></i></span></a>
+        </div>
+    <h2>Links de Interés</h2>
+        <div class="links">
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Preguntas Frecuentes</a>
+            <a href="#">Ayuda</a>
+      </div>
+    </div>
+
+      
+    </div>
+
+
+    <div class="grupo-2">
+        <small>© 2023 <b> PC Masters </b> - Todos los Derechos Reservados.</small>
+
+    </div>
+
+</section>
 </footer>
+
 </body>
 
 </html>

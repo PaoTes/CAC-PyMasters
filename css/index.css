@@ -33,11 +33,21 @@ a.nav-link:hover{
     color: rgb(250, 160, 4);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding-bottom: 20px;
     font-size: 4rem;
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 
 }
+.title-i h1{
+    text-align: center;
+    color: rgb(24, 90, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 
+}
 #banner-inicio{
     background-image: url(../media/img_AMD/img_INDEX/dual-screen-desktop-computer.jpg);
     background-size: contain;
@@ -45,16 +55,22 @@ a.nav-link:hover{
     height: 40vw;
 }
 #banner-amd{
-    background-image: url(../media/img_AMD/img_INDEX/dual-screen-desktop-computer.jpg);
+    background-image: url(../media/amd.jpg);
     background-size: contain;
     background-position: bottom;
     height: 40vw;
 }
 #banner-intel{
-    background-image: url(../media/img_AMD/img_INDEX/dual-screen-desktop-computer.jpg);
+    background-image: url(../media/intel.jpg);
     background-size: contain;
     background-position: bottom;
     height: 40vw;
+}
+#banner-clientes{
+    background-image: url(../media/clientes.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
 }
 #search{
     height: 5vw;
