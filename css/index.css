@@ -74,7 +74,6 @@ h1{
 .container{
     display:flex;
     width: 90%;
-    flex-direction:row;
     justify-content: space-around;
     flex-wrap: nowrap;
     
@@ -99,7 +98,8 @@ h1{
 
 }
 .product-item:hover{
-webkit-transform:scale(1);transform:scale(1.06);}
+webkit-transform:scale(1);transform:scale(1.06);
+}
    
 img.product-img {
     width: auto;
@@ -112,8 +112,11 @@ img.product-img {
     height:350px;
 
 }
-.product-item-detail{
+.wrpapper-producto{
     display:flex;
+    
+}
+.product-item-detail{
     justify-content: center;
     background-color: #212529;
     flex-wrap: nowrap;
@@ -185,3 +188,7 @@ footer h2{
     justify-content: center;
     padding: 15px;
 }
+
+
+
+
