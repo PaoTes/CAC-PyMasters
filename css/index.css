@@ -132,8 +132,20 @@ img.product-img {
 }
 
 footer{
+    padding:50px;
     background-color:#212529;
     color:#fff;
+}
+footer img{
+    width:150px;
+}
+footer i{
+    color:#fff;
+}
+footer h2{
+    color:rgb(250, 160, 4);
+    font-size:1.5rem;
+    text-transform:lowercase, capitalize;
 }
  .grupo-1{display:flex;
         flex-direction:row;
