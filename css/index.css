@@ -147,7 +147,7 @@ h1{
 
 }
 .product-item:hover{
-webkit-transform:scale(1);transform:scale(1.06);
+-webkit-transform:scale(1);transform:scale(1.06);
 }
    
 img.product-img {
@@ -321,6 +321,9 @@ iframe{
     .tit-buscar {
         font-size: 1em;
         text-align: right;
+    }
+    .title h1, .title-i h1{
+        font-size:2.5rem;
     }
     .grupo-1{
         flex-direction:column;
