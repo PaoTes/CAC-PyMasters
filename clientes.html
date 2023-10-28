@@ -71,10 +71,12 @@
       <h1>Nuestros Clientes</h1>
     </div>
     <div id="app">
-        <button @click="anterior1()">Anterior</button>
-        <!--   <button @click=" fetchData({{anterior}} .....)">Anterior</button>-->
-        <button @click="siguiente1()">Siguiente</button><br>
-        <div class="d-flex flex-wrap justify-content-center ">
+        <div class="button-wrapper">
+            <button class="botones-clientes" @click="anterior1()">Anterior</button>
+            <!--   <button @click=" fetchData({{anterior}} .....)">Anterior</button>-->
+            <button  class="botones-clientes"@click="siguiente1()">Siguiente</button>
+        </div>
+        <div class="clientes">
             <div v-for="personaje in personajes" class="  padding: 5px card m-3" style="width: 200px;">
                 <img :src="personaje.image" class="card-img-top" alt="Card image" style="width:100%">
                 <div class="card-body">
@@ -84,8 +86,7 @@
                     <p class="card-text">Género: {{personaje.gender}} </p>
                     <p class="card-text">Creado: {{personaje.created.substr(0,10)}}</p>
                     <p class="card-text">Especie: {{personaje.species}} </p>
-                    <!--  <p class="card-text">Origen: {{personaje.origin.name}} </p>-->
-                    <!-- <p class="card-text">Tipo: "{{personaje.type}}" </p>-->
+                    
                 </div>
             </div>
 
