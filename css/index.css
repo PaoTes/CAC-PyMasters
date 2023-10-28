@@ -54,11 +54,17 @@ a.nav-link:hover{
     background-position: bottom;
     height: 40vw;
 }
-#banner-amd{
+/* #banner-amd{
     background-image: url(../media/amd.jpg);
     background-size: contain;
     background-position: bottom;
     height: 40vw;
+} */
+#banner-amd{
+    background-image: url(../media/img_AMD/amd_banner.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
 }
 #banner-intel{
     background-image: url(../media/intel.jpg);
@@ -243,25 +249,69 @@ footer h2{
     padding-top: 30px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    /* .container{
-       flex-direction: column;
+.mapa{
+    width:40%;
+}
+.formu{
+    width:40%;
+}
+.contact-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content:center;
     
-    } */
+    margin:20px;
+    
+
+}
+.form-wrapper h2{
+    margin-left: 15px;
+}
+input, textarea, iframe, .d-grid {
+    margin: 15px;
+}
+.contact-wrapper{
+    background-color: #82c0d6;
+}
+iframe{
+    border-radius:20px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .grupo-1{
+        flex-direction:column;
+        justify-self: start;
+        align-items: center;   
+       
+        }
+        .mapa, .formu{
+            width:90%;
+            align-items: center;
+            overflow: hidden;
+        }
+      
+        .form-wrapper{
+            flex-direction: column;
+        }
+}
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
-
-
+@media only screen and (min-width: 1200px) {};
 

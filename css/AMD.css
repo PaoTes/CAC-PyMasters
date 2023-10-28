@@ -7,8 +7,7 @@
     padding-left: 550px;
 }
 
-.header{
-    font-size: 110%;
+/* .header{
     width: 100%;
     top:0;
     left:0;
@@ -16,10 +15,10 @@
     color:rgb(250, 160, 4);
     padding-top: 20px;
     padding-left: 20px;
-}
+} */
 
-#banner{
-    background-image: url('./img_AMD/amd_banner.jpeg') ;
+#banner-amd{
+    background-image: url(../media/img_AMD/amd_banner.jpeg) ;
     background-size: cover;
     background-position: center;
     height: 30vw;
@@ -35,43 +34,57 @@ h1{
   }
 
 .container{
+    display:flex;
     max-width: 1200px;
     margin:0 auto;
 }
 
 .contenedor{
 width: 100%;
-height: 70%;
-color:black;
-position: relative;
-top: 40px;
+height: 100%;
+/* color:black;
+position: relative; */
+
 
 }
-
-
-
-.producto-img{
-    width: 150px;
-
-}
-
 .producto-flex{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-#producto1{
-    order: 1;
-    flex-grow: 2;
-    flex-basis: 50%;
+img.producto-img {
+    width: 200px;
+    margin: 0 auto;
+
+}
+.producto-img {
+    width: 200px;
+    height: 150px;
+}
+
+.producto{
+    width:300px;
+    margin:50px 20px;
+    padding:15px;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     padding-top: 25px;
+    overflow: scroll;
 }
+.producto a{
+    margin:50px 0px;
 
+}
+.producto-detail{
+    height:290px;
+    width:280px;
+}
+/*
 #producto2{
     order: 2;
-    flex-grow: 2;
-    flex-basis: 50%;
-    padding-top: 25px;
+   
 }
 
 #producto3{
@@ -100,22 +113,37 @@ top: 40px;
     flex-grow: 2;
     flex-basis: 50%;
     padding-top: 25px;
+} */
+.producto-detail-title{
+    line-height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color:rgb(190, 126, 16);
+
 }
 
 .btn_comprar{
+    
+     width:300px;
     background-color: black;
     color: rgb(250, 160, 4);
-    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 35%;
     border-radius:10px;
+    height: 40px;
+    text-decoration: none;
+    
 }
 
 .btn_comprar:hover{
+    
     background-color: rgb(250, 160, 4);
     color: black;
-    border: 2px solid var(--secondary-color);
+    
 }
-.footer{
-    width: 100%;
+/* .footer{
+   
     height: 10%;
 }
 
@@ -126,4 +154,4 @@ top: 40px;
     width: 100%;
     gap: 20px;
     padding: 50px;
-}
+} */
