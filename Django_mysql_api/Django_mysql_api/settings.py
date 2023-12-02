@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'API',
 ]
 
@@ -83,14 +84,13 @@ WSGI_APPLICATION = 'Django_mysql_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':env(DATABASE_NAME),
-        'USER': env(DATABASE_USER),
-        'PASSWORD': env(DATABASE_PASSWORD),
-        'HOST': env(DATABASE_HOST),
-        'PORT': env(DATABASE_PORT),
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT'),
     }
 }
-
 
 
 # Password validation
@@ -115,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'es-pe'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -133,3 +133,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#donde vamos a guardar los archivos medias debug
+MEDIA_URL = "/media/"
+#media para producción
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
